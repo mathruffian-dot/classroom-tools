@@ -6,7 +6,7 @@
 ## 這是什麼
 
 - 本機資料夾：`G:\我的雲端硬碟\classroom-tools`
-- 雲端 Apps Script 專案：https://script.google.com/d/1EoNKz26G1dzj8o1zJqEKzDIJSLm2-s8iNPy7IDUOBggmMUozYpj7A0dG/edit
+- 雲端 Apps Script 專案：`https://script.google.com/d/<你的 scriptId>/edit`
 - 程式：`Code.js`（4 個範例函式）；設定：`appsscript.json`（已啟用 Classroom 進階服務與 OAuth 範圍）
 
 ## 一次性設定（只有你能做的授權步驟）
@@ -27,7 +27,7 @@
 ## 開發流程（clasp）
 
 ```bash
-cd "G:/我的雲端硬碟/classroom-tools"
+cd classroom-tools
 clasp pull      # 從雲端拉最新
 clasp push      # 把本機改動推上雲端
 clasp open-script   # 用瀏覽器開啟編輯器
